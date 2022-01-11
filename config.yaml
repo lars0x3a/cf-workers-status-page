@@ -19,7 +19,7 @@ monitors:
     name: RidersRAN
     url: 'https://riders-ran.xyz/'
     method: GET
-    expectStatus: 200
+    expectStatus: 503 #200
 
   - id: amazon-com # unique identifier
     name: Amazon
@@ -44,4 +44,14 @@ monitors:
     method: GET
     expectStatus: 200
  
-  - id: 
+  - id: binance-com
+    name: Binance
+    url: 'https://binance.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: github-com
+    name: Github
+    url: 'https://github.com/'
+    method: GET
+    expectStatus: 200
