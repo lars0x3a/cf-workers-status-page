@@ -1,5 +1,7 @@
 # Cloudflare Worker - Status Page
 
+[![GitHub issues](https://img.shields.io/github/issues/lars0x3a/cf-workers-status-page?style=for-the-badge)](https://github.com/lars0x3a/cf-workers-status-page/issues) [![GitHub license](https://img.shields.io/github/license/lars0x3a/cf-workers-status-page?style=for-the-badge)](https://github.com/lars0x3a/cf-workers-status-page/blob/main/LICENSE)
+
 Monitor your websites, showcase status including daily history, and get Slack notification whenever your website status changes. Using **Cloudflare Workers**, **CRON Triggers,** and **KV storage**. Check [my status page](https://status-page.eidam.dev) out! 🚀
 
 ![Status Page](.gitbook/assets/status_page_screenshot.png)
