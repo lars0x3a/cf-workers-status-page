@@ -15,18 +15,18 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: riders-ran
-    name: RidersRAN
-    url: 'https://riders-ran.xyz/'
-    method: GET
-    expectStatus: 503 #200
+  #- id: riders-ran
+    #name: RidersRAN
+    #url: 'https://riders-ran.xyz/'
+    #method: GET
+    #expectStatus: 503 #200
 
-  - id: amazon-com # unique identifier
-    name: Amazon
+  #- id: amazon-com # unique identifier
+  #  name: Amazon
     #description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://amazon.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    #url: 'https://amazon.com/' # URL to fetch
+    #method: GET # default=GET
+    #expectStatus: 200 # operational status, default=200
     #followRedirect: false # should fetch follow redirects, default=false
     #linkable: false # allows the title to be a link, default=true
 
@@ -38,15 +38,15 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: google-com
-    name: Google
-    url: 'https://google.com/'
+  - id: jamilbulanadi-com
+    name: Dev Site
+    url: 'https://jamilbulanadi.com/'
     method: GET
     expectStatus: 200
  
-  - id: binance-com
+  - id: tri-m
     name: Binance
-    url: 'https://binance.com/'
+    url: 'https://tri-m.builders/'
     method: GET
     expectStatus: 200
     
