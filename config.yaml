@@ -39,13 +39,13 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: jamilbulanadi-com
-    name: Dev Site
-    url: 'https://jamilbulanadi.com/'
+    name: Jamil Bulanadi
+    url: 'https://jbulanadi.com/'
     method: GET
     expectStatus: 200
  
   - id: tri-m
-    name: Binance
+    name: Tri-M
     url: 'https://tri-m.builders/'
     method: GET
     expectStatus: 200
