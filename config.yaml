@@ -21,14 +21,14 @@ monitors:
     #method: GET
     #expectStatus: 503 #200
 
-  #- id: amazon-com # unique identifier
-  #  name: Amazon
-    #description: 'You write code. They handle the rest.' # default=empty
-    #url: 'https://amazon.com/' # URL to fetch
-    #method: GET # default=GET
-    #expectStatus: 200 # operational status, default=200
-    #followRedirect: false # should fetch follow redirects, default=false
-    #linkable: false # allows the title to be a link, default=true
+  - id: amazon-com # unique identifier
+    name: LazyGoat NFT
+    description: 'LazyGoat is the new dope!' # default=empty
+    url: 'https://lazygoat.io' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
     name: Cloudflare
