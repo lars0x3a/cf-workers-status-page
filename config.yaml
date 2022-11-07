@@ -38,11 +38,12 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  #- id: jamilbulanadi-com
-  #  name: Jamil Bulanadi
-  #  url: 'https://jbulanadi.com/'
-  #  method: GET
-  #  expectStatus: 200
+  - id: jamilbulanadi-com
+    name: TCMS Backend - Staging
+    url: 'https://mobile-backend.qpax-tcms.net/'
+    method: GET
+    expectStatus: 200
+    linkable: false #--
  
   - id: tri-m
     name: RidersRAN
