@@ -21,10 +21,10 @@ monitors:
     #method: GET
     #expectStatus: 503 #200
 
-  - id: amazon-com # unique identifier
-    name: LazyGoat NFT
-    description: 'LazyGoat is the new dope!' # default=empty
-    url: 'https://lazygoat.io' # URL to fetch
+  - id: qpax-tcms # unique identifier
+    name: QPax Beanstalk
+    description: 'QPax Beanstalk AWS' # default=empty
+    url: 'http://tcmsmobilebackendstaging-env.eba-3ippmw5s.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -38,17 +38,17 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: jamilbulanadi-com
-    name: Jamil Bulanadi
-    url: 'https://jbulanadi.com/'
-    method: GET
-    expectStatus: 200
+  #- id: jamilbulanadi-com
+  #  name: Jamil Bulanadi
+  #  url: 'https://jbulanadi.com/'
+  #  method: GET
+  #  expectStatus: 200
  
-  - id: tri-m
-    name: Tri-M
-    url: 'https://tri-m.builders/'
-    method: GET
-    expectStatus: 200
+  #- id: tri-m
+  #  name: Tri-M
+  #  url: 'https://tri-m.builders/'
+  #  method: GET
+  #  expectStatus: 200
     
   - id: github-com
     name: Github
