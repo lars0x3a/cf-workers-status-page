@@ -22,7 +22,7 @@ monitors:
     #expectStatus: 503 #200
 
   - id: qpax-tcms # unique identifier
-    name: QPax Beanstalk
+    name: QPax Beanstalk AWS
     description: 'QPax Beanstalk AWS' # default=empty
     url: 'http://tcmsmobilebackendstaging-env.eba-3ippmw5s.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
     method: GET # default=GET
