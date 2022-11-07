@@ -44,11 +44,13 @@ monitors:
   #  method: GET
   #  expectStatus: 200
  
-  #- id: tri-m
-  #  name: Tri-M
-  #  url: 'https://tri-m.builders/'
-  #  method: GET
-  #  expectStatus: 200
+  - id: tri-m
+    name: RidersRAN
+    url: 'https://riders-ran.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: false #--
+    followRedirect: false #--
     
   - id: github-com
     name: Github
