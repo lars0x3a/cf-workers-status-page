@@ -24,7 +24,7 @@ monitors:
   - id: qpax-tcms-beanstalk # unique identifier
     name: TCMS Beanstalk - Staging
     #description: 'QPax Beanstalk AWS' # default=empty
-    url: 'http://map-backend-api.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
+    url: 'https://map-backend-api.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     #followRedirect: false # should fetch follow redirects, default=false
