@@ -21,14 +21,21 @@ monitors:
     #method: GET
     #expectStatus: 503 #200
 
-  - id: qpax-tcms # unique identifier
-    name: QPax Beanstalk AWS
-    description: 'QPax Beanstalk AWS' # default=empty
-    url: 'http://tcmsmobilebackendstaging-env.eba-3ippmw5s.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
+  - id: qpax-tcms-beanstalk # unique identifier
+    name: TCMS Beanstalk - Staging
+    #description: 'QPax Beanstalk AWS' # default=empty
+    url: 'http://map-backend-api.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    #followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+ 
+  - id: qpax-tcms-staging
+    name: TCMS Backend - Staging
+    url: 'https://mobile-backend.qpax-tcms.net/'
+    method: GET
+    expectStatus: 200
+    linkable: false #--
 
   - id: www-cloudflare-com
     name: Cloudflare
@@ -37,15 +44,8 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: jamilbulanadi-com
-    name: TCMS Backend - Staging
-    url: 'https://mobile-backend.qpax-tcms.net/'
-    method: GET
-    expectStatus: 200
-    linkable: false #--
  
-  - id: tri-m
+  - id: riders-ran
     name: RidersRAN
     url: 'https://riders-ran.xyz/'
     method: GET
