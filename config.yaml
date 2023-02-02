@@ -38,7 +38,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
          
   - id: www-youtube-com
-    name: Microsoft
+    name: YouTube
     #description: 'Built for anything connected to the Internet.'
     url: 'https://www.youtube.com/'
     method: GET
