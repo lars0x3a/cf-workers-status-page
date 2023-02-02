@@ -21,22 +21,6 @@ monitors:
     #method: GET
     #expectStatus: 503 #200
 
-  - id: qpax-tcms-beanstalk # unique identifier
-    name: TCMS Beanstalk - Staging
-    #description: 'QPax Beanstalk AWS' # default=empty
-    url: 'https://map-backend-api.ap-southeast-1.elasticbeanstalk.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    #followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
- 
-  - id: qpax-tcms-staging
-    name: TCMS Backend - Staging
-    url: 'https://mobile-backend.qpax-tcms.net/'
-    method: GET
-    expectStatus: 200
-    linkable: false #--
-
   - id: www-cloudflare-com
     name: Cloudflare
     #description: 'Built for anything connected to the Internet.'
@@ -44,14 +28,30 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
- 
-  - id: riders-ran
-    name: RidersRAN
-    url: 'https://riders-ran.xyz/'
+    
+  - id: www-microsoft-com
+    name: Microsoft
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://www.microsoft.com/'
     method: GET
     expectStatus: 200
-    linkable: false #--
-    followRedirect: false #--
+    linkable: true # allows the title to be a link, default=true
+         
+  - id: www-youtube-com
+    name: Microsoft
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://www.youtube.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+     
+  - id: www-google-com
+    name: Google
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://www.google.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
     
   - id: github-com
     name: Github
