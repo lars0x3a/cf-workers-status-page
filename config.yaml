@@ -34,7 +34,7 @@ monitors:
     #description: 'Built for anything connected to the Internet.'
     url: 'https://www.microsoft.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 201
     linkable: true # allows the title to be a link, default=true
          
   - id: www-youtube-com
@@ -50,7 +50,7 @@ monitors:
     #description: 'Built for anything connected to the Internet.'
     url: 'https://www.google.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 201
     linkable: true # allows the title to be a link, default=true
     
   - id: github-com
