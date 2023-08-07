@@ -29,12 +29,12 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-  - id: www-microsoft-com
-    name: Microsoft
+  - id: www-lavie-ph
+    name: Lavie Ticketing System
     #description: 'Built for anything connected to the Internet.'
-    url: 'https://www.microsoft.com/'
+    url: 'https://ticket.lavie.ph/'
     method: GET
-    expectStatus: 201
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true
          
   - id: www-youtube-com
@@ -45,13 +45,13 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
      
-  - id: www-google-com
-    name: Google
+  #- id: www-google-com
+  #  name: Google
     #description: 'Built for anything connected to the Internet.'
-    url: 'https://www.google.com/'
-    method: GET
-    expectStatus: 201
-    linkable: true # allows the title to be a link, default=true
+  #  url: 'https://www.google.com/'
+  #  method: GET
+  #  expectStatus: 201
+  #  linkable: true # allows the title to be a link, default=true
     
   - id: github-com
     name: Github
